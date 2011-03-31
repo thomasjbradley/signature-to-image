@@ -7,7 +7,7 @@
  *	@author		Thomas J Bradley <hey@thomasjbradley.ca>
  *	@link		http://thomasjbradley.ca/lab/signature-to-image
  *	@link		http://github.com/thomasjbradley/signature-to-image
- *	@copyright	Copyright MMX–, Thomas J Bradley
+ *	@copyright	Copyright MMXI–, Thomas J Bradley
  *	@license	New BSD License
  *	@version	1.0.0
  */
@@ -17,7 +17,7 @@
  *	Converts it to an image resource
  *	The image resource can then be changed into png, jpg whatever PHP GD supports
  *
- *	To create a nicely anti-aliased graphic the signature is drawn 24 times it's original size then shrunken
+ *	To create a nicely anti-aliased graphic the signature is drawn 12 times it's original size then shrunken
  *
  *	@param	string|array	$json
  *	@param	array	$options	OPTIONAL; the options for image creation
