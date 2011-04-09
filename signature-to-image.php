@@ -9,7 +9,7 @@
  *	@link		http://github.com/thomasjbradley/signature-to-image
  *	@copyright	Copyright MMXI–, Thomas J Bradley
  *	@license	New BSD License
- *	@version	1.0.0
+ *	@version	1.0.1
  */
 
 /**
@@ -46,7 +46,7 @@ function sigJsonToImage($json, $options = array())
 	imagefill($img, 0, 0, $bg);
 	
 	if(is_string($json))
-		$json = json_decode($json);
+		$json = json_decode(stripslashes($json));
 	
 	foreach($json as $v)
 		drawThickLine($img, $v->lx * $options['drawMultiplier'], $v->ly * $options['drawMultiplier'], $v->mx * $options['drawMultiplier'], $v->my * $options['drawMultiplier'], $pen, $options['penWidth'] * ($options['drawMultiplier'] / 2));

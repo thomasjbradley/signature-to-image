@@ -9,7 +9,7 @@
  *	@link		http://github.com/thomasjbradley/signature-to-image
  *	@copyright Copyright MMXI–, Thomas J Bradley
  *	@license	New BSD License
- *	@version	1.0.0
+ *	@version	1.0.1
  */
 
 require_once '../signature-to-image.php';
