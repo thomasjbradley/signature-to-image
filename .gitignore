@@ -1,5 +1,3 @@
-syntax: glob
-
 ._*
 .DS_Store
 
