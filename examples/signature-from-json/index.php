@@ -12,7 +12,7 @@
  *	@version	1.0.1
  */
 
-require_once '../signature-to-image.php';
+require_once '../../signature-to-image.php';
 
 $img = sigJsonToImage(file_get_contents('sig-output.json'));
 
