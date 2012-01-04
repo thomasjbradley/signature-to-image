@@ -9,7 +9,7 @@ Copyright MMXI, Thomas J Bradley <hey@thomasjbradley.ca>
 Versioned using Semantic Versioning <http://semver.org/>
 
 ## Quick Start
-```
+```php
 require_once 'signature-to-image.php';
 
 $json = $_POST['output']; // From Signature Pad
