@@ -19,7 +19,7 @@ imagepng($img, 'signature.png');
 imagedestroy($img);
 ```
 
-## Complete Documentation
+### Complete Documentation
 <http://thomasjbradley.ca/lab/signature-to-image>
 
 ## Other Solutions
