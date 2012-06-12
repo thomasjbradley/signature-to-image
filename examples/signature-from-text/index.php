@@ -1,16 +1,4 @@
 <?php
-/**
- *	Signature to Image: A supplemental script for Signature Pad that
- *	  generates an image of the signature’s text representation server-side using PHP.
- *	
- *	@project	ca.thomasjbradley.applications.signaturetoimage
- *	@author		Thomas J Bradley <hey@thomasjbradley.ca>
- *	@link		http://thomasjbradley.ca/lab/signature-to-image
- *	@link		http://github.com/thomasjbradley/signature-to-image
- *	@copyright	Copyright MMXI–, Thomas J Bradley
- *	@license	New BSD License
- *	@version	1.0.1
- */
 
 header('Content-type: image/png');
 
