@@ -1,6 +1,6 @@
 <?php
 
-require_once '../../signature-to-image.php';
+require '../../signature-to-image.php';
 
 $img = sigJsonToImage(file_get_contents('sig-output.json'));
 
