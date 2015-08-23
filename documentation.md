@@ -84,7 +84,9 @@ When you have finished with the image resource, make sure to clean up after your
 imagedestroy($img);
 ```
 
-## Function Reference[functions-ref]
+---
+
+## Function Reference
 
 <table class="reference">
   <col class="method">
@@ -112,6 +114,8 @@ imagedestroy($img);
   </tbody>
 </table>
 
+---
+
 ## Options
 
 Options can be passed as the second argument of the function when called. Only options that are different from the defaults need to be included in the options array.
@@ -123,7 +127,7 @@ $img = sigJsonToImage($json, array('imageSize'=>array(198, 55)));
 
 It’s highly recommended that the options used server-side match the values used in the Javascript.
 
-### Options Reference[options-ref]
+### Options Reference
 
 <table class="reference alternate">
   <col class="name">
@@ -180,9 +184,13 @@ It’s highly recommended that the options used server-side match the values use
   </tbody>
 </table>
 
-## Version History[changelog]
+---
+
+## Version History
 
 Check out the [changelog on GitHub](https://github.com/thomasjbradley/signature-to-image/blob/master/CHANGELOG.md).
+
+---
 
 ## License
 
@@ -192,23 +200,10 @@ Signature to Image is licensed under the <a href="https://github.com/thomasjbrad
 
 ## Other Solutions
 
-PHP to SVG
-: [sigToSvg](https://github.com/chaz-meister/sigToSvg/) by [Charles Gebhard](http://www.pointsystems.com/) is a script for converting the signature JSON to SVG using PHP. Check out the amazing [sigToSvg on GitHub](https://github.com/chaz-meister/sigToSvg/).
-
-Python
-: [python-signpad2image](https://github.com/videntity/python-signpad2image) by [Alan Viars](http://videntity.com) is a script for converting the signature JSON to PNG using Python. Check out the fantastico [python-signpad2image on GitHub](https://github.com/videntity/python-signpad2image).
-
-Ruby on Rails
-: [ruby-signaturepad-to-image.rb](https://gist.github.com/4258871) by [Phil Hofmann](https://github.com/branch14) is a chunk of code for converting signature JSON to PNG within a Ruby on Rails app. Check out the wam-bham [ruby-signaturepad-to-image.rb on Github](https://gist.github.com/4258871).
-
-C#
-: [SignatureToDotNet](https://github.com/parrots/SignatureToImageDotNet) by [Curtis Herbert](http://www.consumedbycode.com) is a script for converting the signature JSON to an image using C#. Check out the awesome [SignatureToDotNet project on GitHub](https://github.com/parrots/SignatureToImageDotNet).
-
-Perl
-: [signature-to-image.pl](http://search.cpan.org/~turnerjw/JSON-signature-to-image-1.0/signature-to-image.pl) by [Jim Turner](http://home.mesh.net/turnerjw/jim/) is a script for converting the signature JSON to a PNG using Perl. Check out the fabulous [signature-to-image.pl on CPAN](http://search.cpan.org/~turnerjw/JSON-signature-to-image-1.0/signature-to-image.pl).
-
-ColdFusion
-: [sigJsonToImage](http://www.cflib.org/udf/sigJsonToImage) by [James Moberg](http://www.ssmedia.com/) is a script for converting the signature JSON to an PNG using ColdFusion. Check out the super-duper [sigJsonToImage project on CFLib.org](http://www.cflib.org/udf/sigJsonToImage).
-
-Java
-: [SignatureToImageJava](https://github.com/vinodkiran/SignatureToImageJava) by [Vinod Kiran](https://github.com/vinodkiran) is a script for converting the signature JSON to an image using Java. Check out the rad [SignatureToImageJava project on GitHub](https://github.com/vinodkiran/SignatureToImageJava).
+- PHP to SVG: [sigToSvg](https://github.com/chaz-meister/sigToSvg/) by [Charles Gebhard](http://www.pointsystems.com/) is a script for converting the signature JSON to SVG using PHP. Check out the amazing [sigToSvg on GitHub](https://github.com/chaz-meister/sigToSvg/).
+- Python: [python-signpad2image](https://github.com/videntity/python-signpad2image) by [Alan Viars](http://videntity.com) is a script for converting the signature JSON to PNG using Python. Check out the fantastico [python-signpad2image on GitHub](https://github.com/videntity/python-signpad2image).
+- Ruby on Rails: [ruby-signaturepad-to-image.rb](https://gist.github.com/4258871) by [Phil Hofmann](https://github.com/branch14) is a chunk of code for converting signature JSON to PNG within a Ruby on Rails app. Check out the wam-bham [ruby-signaturepad-to-image.rb on Github](https://gist.github.com/4258871).
+- C#: [SignatureToDotNet](https://github.com/parrots/SignatureToImageDotNet) by [Curtis Herbert](http://www.consumedbycode.com) is a script for converting the signature JSON to an image using C#. Check out the awesome [SignatureToDotNet project on GitHub](https://github.com/parrots/SignatureToImageDotNet).
+- Perl: [signature-to-image.pl](http://search.cpan.org/~turnerjw/JSON-signature-to-image-1.0/signature-to-image.pl) by [Jim Turner](http://home.mesh.net/turnerjw/jim/) is a script for converting the signature JSON to a PNG using Perl. Check out the fabulous [signature-to-image.pl on CPAN](http://search.cpan.org/~turnerjw/JSON-signature-to-image-1.0/signature-to-image.pl).
+- ColdFusion: [sigJsonToImage](http://www.cflib.org/udf/sigJsonToImage) by [James Moberg](http://www.ssmedia.com/) is a script for converting the signature JSON to an PNG using ColdFusion. Check out the super-duper [sigJsonToImage project on CFLib.org](http://www.cflib.org/udf/sigJsonToImage).
+- Java: [SignatureToImageJava](https://github.com/vinodkiran/SignatureToImageJava) by [Vinod Kiran](https://github.com/vinodkiran) is a script for converting the signature JSON to an image using Java. Check out the rad [SignatureToImageJava project on GitHub](https://github.com/vinodkiran/SignatureToImageJava).
