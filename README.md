@@ -24,11 +24,11 @@ imagedestroy($img);
 
 ## Complete Documentation
 
-[☛ Complete documentation](documentation.md)
+#### [☛ Complete documentation](documentation.md)
 
 ## Other Solutions
 
-[☛ Other solutions](documentation.md#othersolutions)
+#### [☛ Other solutions](documentation.md#othersolutions)
 
 ---
 
